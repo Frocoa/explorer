@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcefc9dccd1fe5a4ab00cc968d48acb7, type: 3}
+  m_Name: BunkerSet
+  m_EditorClassIdentifier: Assembly-CSharp::MazeTileSet
+  tiles:
+  - label: S
+    north: 0
+    south: 1
+    east: 0
+    west: 0
+    sprite: {fileID: 21300000, guid: fb2a02b170b42414a9f18e90e320c6ac, type: 3}
+  - label: E
+    north: 0
+    south: 0
+    east: 1
+    west: 0
+    sprite: {fileID: 21300000, guid: d52c2db56e0f5db46970ddc99eafb16a, type: 3}
+  - label: SE
+    north: 0
+    south: 1
+    east: 1
+    west: 0
+    sprite: {fileID: 21300000, guid: 9bddb9425c63b3b49834bdc243cb14f3, type: 3}
+  - label: N
+    north: 1
+    south: 0
+    east: 0
+    west: 0
+    sprite: {fileID: 21300000, guid: 9a711519a41ee4e4baab5820ac9c8eec, type: 3}
+  - label: NS
+    north: 1
+    south: 1
+    east: 0
+    west: 0
+    sprite: {fileID: 21300000, guid: 5578c75b2c5d6a340b31c8e8a17d331d, type: 3}
+  - label: NE
+    north: 1
+    south: 0
+    east: 1
+    west: 0
+    sprite: {fileID: 21300000, guid: d529547d01facfe41ad577fc8d9fe695, type: 3}
+  - label: NSE
+    north: 1
+    south: 1
+    east: 1
+    west: 0
+    sprite: {fileID: 21300000, guid: a8414f88b778da84ab6668da2afb3153, type: 3}
+  - label: W
+    north: 0
+    south: 0
+    east: 0
+    west: 1
+    sprite: {fileID: 21300000, guid: 4075534677d461141a3bd476dd0c4061, type: 3}
+  - label: SW
+    north: 0
+    south: 1
+    east: 0
+    west: 1
+    sprite: {fileID: 21300000, guid: 072d254e962208b4fb92dd928227af69, type: 3}
+  - label: EW
+    north: 0
+    south: 0
+    east: 1
+    west: 1
+    sprite: {fileID: 21300000, guid: 660b2cc14a772e84288491fbe8df0d8e, type: 3}
+  - label: SEW
+    north: 0
+    south: 1
+    east: 1
+    west: 1
+    sprite: {fileID: 21300000, guid: 7f6fbdfe52bbc12429d1c70b13410276, type: 3}
+  - label: NW
+    north: 1
+    south: 0
+    east: 0
+    west: 1
+    sprite: {fileID: 21300000, guid: b5fbf803b40d0f9428ee5a8cf7eeed2d, type: 3}
+  - label: NSW
+    north: 1
+    south: 1
+    east: 0
+    west: 1
+    sprite: {fileID: 21300000, guid: fd657936a96adaf4caa9b60cc10c41b7, type: 3}
+  - label: NEW
+    north: 1
+    south: 0
+    east: 1
+    west: 1
+    sprite: {fileID: 21300000, guid: 94ff77de352e2114cba937440f27e613, type: 3}
+  - label: NSEW
+    north: 1
+    south: 1
+    east: 1
+    west: 1
+    sprite: {fileID: 21300000, guid: 13077ce2b6a04c9469f97f6bbaf19baf, type: 3}

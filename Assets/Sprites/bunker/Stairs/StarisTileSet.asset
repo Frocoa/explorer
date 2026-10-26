@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4929887b0b3ea459285efbabbad351, type: 3}
+  m_Name: StarisTileSet
+  m_EditorClassIdentifier: Assembly-CSharp::StairsTileSet
+  tiles:
+  - label: BLA
+    position: 5
+    direction: 0
+    sprite: {fileID: 21300000, guid: 6c859f624206ff24fa8965994d67337b, type: 3}
+  - label: BLT
+    position: 5
+    direction: 1
+    sprite: {fileID: 21300000, guid: b67c7336e831e3c46857b119d45a1c51, type: 3}
+  - label: BA
+    position: 6
+    direction: 0
+    sprite: {fileID: 21300000, guid: 4a53db164ed9bc7419ef7ffc92d89cb0, type: 3}
+  - label: BT
+    position: 6
+    direction: 1
+    sprite: {fileID: 0}
+  - label: BRA
+    position: 7
+    direction: 0
+    sprite: {fileID: 21300000, guid: 1ec1c76e58cda5d4ba1a7c4b044dae10, type: 3}
+  - label: BRT
+    position: 7
+    direction: 1
+    sprite: {fileID: 21300000, guid: 2b874d5980c6ca44e8e4e34b51191857, type: 3}
+  - label: LA
+    position: 3
+    direction: 0
+    sprite: {fileID: 21300000, guid: f38f8fb4fded1314ca8af1b876c3e78d, type: 3}
+  - label: LT
+    position: 3
+    direction: 1
+    sprite: {fileID: 21300000, guid: b2a7fae9e3a360343803261a4050b3cb, type: 3}
+  - label: RA
+    position: 4
+    direction: 0
+    sprite: {fileID: 21300000, guid: c272c34de96f3084f977074f8202602b, type: 3}
+  - label: RT
+    position: 4
+    direction: 1
+    sprite: {fileID: 21300000, guid: 87e8f6a5ec0bd2a40a3c45d01b739c81, type: 3}
+  - label: TLA
+    position: 0
+    direction: 0
+    sprite: {fileID: 21300000, guid: 40a0196f6f3a22140a5151b9dcf25059, type: 3}
+  - label: TLT
+    position: 0
+    direction: 1
+    sprite: {fileID: 21300000, guid: 6db840a03f1ade44e8c9bdd1d55ddbf8, type: 3}
+  - label: TA
+    position: 1
+    direction: 0
+    sprite: {fileID: 21300000, guid: 780fa0a7e1b0a0d4c816ee68bb8c9d10, type: 3}
+  - label: TT
+    position: 1
+    direction: 1
+    sprite: {fileID: 21300000, guid: 7c4d5621f901cf74abf11ff383b6dbf2, type: 3}
+  - label: TRA
+    position: 2
+    direction: 0
+    sprite: {fileID: 21300000, guid: 9803957f9392ad545bee6e78ce47041c, type: 3}
+  - label: TRT
+    position: 2
+    direction: 1
+    sprite: {fileID: 21300000, guid: 49d0b324d1451574782bc8d32e61de2d, type: 3}

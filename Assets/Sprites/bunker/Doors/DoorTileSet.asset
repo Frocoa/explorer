@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40655b1a1cc6e15448e753500aa2c747, type: 3}
+  m_Name: DoorTileSet
+  m_EditorClassIdentifier: Assembly-CSharp::DoorTileSet
+  tiles:
+  - label: BC
+    position: 6
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: 522d421ea808ee3479b0d41b3a852e92, type: 3}
+  - label: BLC
+    position: 5
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: 634cb21c2b93d55448a2612aab316beb, type: 3}
+  - label: BLO
+    position: 5
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: c35e2c08562bbb84fbb5c46502f5e7e7, type: 3}
+  - label: BO
+    position: 6
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: 3b705c1897e97c1498e6fc5e573083b0, type: 3}
+  - label: BRC
+    position: 7
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: 179afcc468d1a314b896ed5026282185, type: 3}
+  - label: BRO
+    position: 7
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: 0b4ed92ce098f0e42a524697294b0d47, type: 3}
+  - label: LC
+    position: 3
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: 28fab125aaa6a274a9de8ccefc233792, type: 3}
+  - label: LO
+    position: 3
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: e46f32e7a89ae8c4199bbf0f7e97818f, type: 3}
+  - label: RC
+    position: 4
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: f7bc9a82d234fbb4ea2c7290040c103d, type: 3}
+  - label: RO
+    position: 4
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: 4e60d1b169f4dea42b6df39164051988, type: 3}
+  - label: TC
+    position: 1
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: e63e6a463599d88469236ab08384c525, type: 3}
+  - label: TLC
+    position: 0
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: cf292da466396b54d9dedfb5169c7259, type: 3}
+  - label: TLO
+    position: 0
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: 276b863fd24a0b54d85be5e304ae5cd9, type: 3}
+  - label: TO
+    position: 1
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: 6f543b12c1d9a7346865b8a81a878b1b, type: 3}
+  - label: TRC
+    position: 2
+    isOpen: 0
+    sprite: {fileID: 21300000, guid: f60dd3ecdc8a5c54ebdd5a0aa8949b2b, type: 3}
+  - label: TRO
+    position: 2
+    isOpen: 1
+    sprite: {fileID: 21300000, guid: 28df019a1b952b84fb5f98159b2c33e6, type: 3}
